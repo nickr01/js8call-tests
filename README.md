@@ -1,2 +1,8 @@
 # js8call-tests
- Js8call test resources
+
+Resources to use for testing of js8call.
+
+1 - Scripts
+
+2 - Test audio input files - edit/gen by Reaper
+
