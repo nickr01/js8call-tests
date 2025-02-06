@@ -7,9 +7,9 @@ Resources being collected for to use in testing/QA of js8call. Baby steps.
 
 The idea is that on occasion it is good to have standard audio samples that can be piped into js8call with an expected repeatable test output.
 
-These are WAV files that can played into audio input of js8call.
+Under /inputs there are WAV files that can played into audio input of js8call.
 
-To do this needs an audio device installed as an output device for audio playback software, and which is then provided as an input device to js8call. Effectively virtual audio patch cable looping from a sound output back into a sound input.
+To do this requires a software virtual audio device installed as an output device for audio playback software, and which is then provided as an input device to js8call. Effectively virtual audio patch cable looping from a sound output back into a sound input.
 
 The same strategy is used for connecting audio output from WebSDR into js8call, and/or recording WebSDR for later use.
 
