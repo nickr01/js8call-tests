@@ -39,5 +39,5 @@ Collecting output from js8call controlled by test scripts could be:
 - processing the .TXT files being generated
 - using the network API to collect data
 
-The adavantage of the network API is that it could also be used in scripts to setup test conditions and run tests but there is little support for these sort of commands in current js8call versions.
+The advantage of the network API is that it could also be used in scripts to setup test conditions and run tests but there is little support for these sort of commands in current js8call versions.
 
