@@ -2,10 +2,13 @@
 
 Resources being collected for to use in testing/QA of js8call. Baby steps.
 
+Intention:
 1 - Scripts
 2 - Test audio input files - edit/gen by Reaper
+3 - Scriptable test utility for repeatable playback start of audio files - https://github.com/nickr01/js8wait
+4 - TODO Scriptable test utilities for sim/check of external connections eg JS8API, PSKINFO, ARPS
 
-The idea is that on occasion it is good to have standard audio samples that can be piped into js8call with an expected repeatable test output.
+The idea is that on occasion it is good to have standard audio samples that can be piped into js8call with an expected repeatable test output, and scriptable for regular regression testing.
 
 Under /inputs there are WAV files that can played into audio input of js8call.
 
@@ -29,6 +32,17 @@ for MacOS - more complex
     Loopback (paid) https://rogueamoeba.com/loopback/
 
 For audio construction and manipulation in this application I use Reaper  https://www.cockos.com/reaper/ which is a full Digital Audio Workstation with a straightforward interface and a generous evaluation license. It also has oscillator and noise generator plugins for the mix.
+
+For playback can do hand synchronisation which is reasonably but not perfectlt repeatable, otherwise see https://github.com/nickr01/js8wait
+
+TEST FILES FOR INPUT
+____________________
+
+See https://github.com/nickr01/js8call-tests/tree/main/inputs
+
+Ideally these are 48K 16bit PCM Mono WAV files to patch native js8 input format
+
+TODO - document the input files
 
 THOUGHTS
 --------
